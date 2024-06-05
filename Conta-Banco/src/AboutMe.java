@@ -18,16 +18,15 @@ import java.util.Scanner;
           int numero = scanner.nextInt();
 
 
-          System.out.print("saldo:");
+          System.out.print("saldo :");
           double saldo = scanner.nextDouble();
           
          
-         System.out.println("Olá "  + nome );
-         System.out.println("obrigado por criar uma conta em nosso banco");
-         System.out.println("sua agência é :" + agencia );
-         System.out.println("conta : "+ numero);
-         System.out.println("e seu saldo" + saldo );
-         System.out.println("já está disponível para saque");
+         System.out.println("Olá " + nome + " obrigado por criar uma conta em nosso banco " );
+         System.out.println("sua agência é:" + agencia );
+         System.out.println("conta: "+ numero);
+         System.out.println("e seu saldo " + saldo + " já está disponível para saque " );
+         
           
 
           
